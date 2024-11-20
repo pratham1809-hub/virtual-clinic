@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMbkvA2GmYceV80A4Pll+hQGBQsm6tw6b6DDyK8" crossorigin="anonymous">
+    <title>Online-Clinic</title>
+    <style>
+      
+     
+    </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container">
+      <a class="navbar-brand " href="#">
+        <img src="Frame 237.png">
+        <b>Virtual-Clinic</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <i class="fa-solid fa-bars navbar-toggler-icon"></i>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active text-dark "  aria-current="page" href="#"><b>Home</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black" href="#about"><b>About Us</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black" href="#services"><b>Services</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black" href="#doctors"><b>Our Doctors</b> </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black" href="#appointment"><b>Book Appointment</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black" href="#contact"><b>Blog</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black" href="#contact"><b>Contact us</b></a>
+          </li>
+          
+          <i class="fa-solid fa-bars-staggered"></i>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="intro-section">
+    <div class="intro-content">
+      <h1>Welcome to Our Virtual Clinic</h1>
+      <p>Delivering quality healthcare with compassion and care.</p>
+      <a href="#services" class="btn btn-primary">Explore Services</a>
+      <div class="location-search input-group">
+        <input type="text" class="form-control" placeholder="Search for Doctors" aria-label="Location">
+        <button class="btn btn-outline-light" type="button">Search</button>
+      </div>
+    </div>
+    
+  </section>
+  <section class="diagnosis-category">
+    <div class="container">
+      <h2 class="mb-6">Our Medical Specialties</h2>
+      <div class="row">
+        <!-- Neurologist -->
+        <div class="col-md-3">
+          <div class="card diagnosis-card border-light text-center p-4">
+            <img src="https://img.icons8.com/ios-filled/100/000000/brain.png" alt="Neurologist">
+            <div class="card-body">
+              <h5 class="card-title">Neurologist</h5>
+              <p class="card-text">Specialized care for brain and nervous system disorders.</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Gastroenterologist -->
+        <div class="col-md-3">
+          <div class="card diagnosis-card border-light text-center p-4">
+            <img src="https://img.icons8.com/ios-filled/100/000000/stomach.png" alt="Gastroenterologist">
+            <div class="card-body">
+              <h5 class="card-title">Gastroenterologist</h5>
+              <p class="card-text">Expertise in digestive and gastrointestinal health.</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Cardiologist -->
+        <div class="col-md-3">
+          <div class="card diagnosis-card border-light text-center p-4">
+            <img src="https://img.icons8.com/ios-filled/100/000000/heart-with-pulse.png" alt="Cardiologist">
+            <div class="card-body">
+              <h5 class="card-title">Cardiologist</h5>
+              <p class="card-text">Heart health and cardiovascular care from specialists.</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Dermatologist -->
+        <div class="col-md-3">
+          <div class="card diagnosis-card border-light text-center p-4">
+            <img src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/100/external-department-of-dermatology-problems-of-skin-and-hair-hospital-bold-tal-revivo.png">
+            <div class="card-body">
+              <h5 class="card-title">Dermatologist</h5>
+              <p class="card-text">Comprehensive care for skin, hair, and nail health.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Gynaecologist -->
+        <div class="col-md-3">
+          <div class="card diagnosis-card border-light text-center p-4">
+            <img src="https://img.icons8.com/?size=100&id=cAzJ5wSOo70B&format=png&color=000000" alt="Gynaecologist">
+            <div class="card-body">
+              <h5 class="card-title">Gynaecologist</h5>
+              <p class="card-text">A priority to female genital health and pregnancy.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Psychiatrist -->
+        <div class="col-md-3">
+          <div class="card diagnosis-card border-light text-center p-4">
+            <img src="https://img.icons8.com/?size=100&id=9533&format=png&color=000000" alt="Psychiatrist">
+            <div class="card-body">
+              <h5 class="card-title">Psychiatrist</h5>
+              <p class="card-text">Counsellor and mental health awareness.</p>
+            </div>
+          </div>
+        </div>
+        <!-- general physican -->
+        <div class="col-md-3">
+          <div class="card diagnosis-card border-light text-center p-4">
+            <img src="https://img.icons8.com/?size=100&id=9570&format=png&color=000000" alt="Cardiologist">
+            <div class="card-body">
+              <h5 class="card-title">General Physician</h5>
+              <p class="card-text">General Physician for your General diagnosis.</p>
+            </div>
+          </div>
+        </div>
+        <!-- oncologist -->
+        <div class="col-md-3">
+          <div class="card diagnosis-card border-light text-center p-4">
+            <img src="https://img.icons8.com/?size=100&id=8fr72Uu9qh7r&format=png&color=000000" alt="Cardiologist">
+            <div class="card-body">
+              <h5 class="card-title">Oncologist</h5>
+              <p class="card-text">Treating cancer and cancer related infections.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="doctors-section">
+    <div class="container">
+      <h2 class="mb-5 text-center">Meet Our Doctors</h2>
+      <div class="row g-4">
+        <!-- Doctor Card -->
+        <div class="col-md-4 col-lg-3">
+          <div class="card doctor-card p-1 pb-3 text-center d-flex flex-col justify-content-center">
+            <div class="image-container d-flex flex-col justify-content-center">
+              <img src="docotor-1.svg" style="width: 100%; height: 100%;" alt="Doctor">
+            </div>
+            <div class="card-info">
+              <h5 class="card-title mt-3">Dr. Raj Joshi</h5>
+              <p class="doctor-info">Cardiologist</p>
+            </div>
+            <div>
+              <button class="btn btn-success btn-sm " style="width: 140px;">Call</button>
+              <button class="btn btn-primary btn-sm" style="width: 140px">Chat</button> 
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-3">
+          <div class="card doctor-card p-1 pb-3 text-center d-flex flex-col justify-content-center">
+            <div class="image-container d-flex flex-col justify-content-center">
+              <img src="doctor-2.svg" style="width: 100%; height: 100%;" alt="Doctor">
+            </div>
+            <div class="card-info">
+              <h5 class="card-title mt-3">Dr. Himanshu Garg</h5>
+              <p class="doctor-info">Dermatologist</p>
+            </div>
+            <div>
+              <button class="btn btn-success btn-sm " style="width: 140px;">Call</button>
+              <button class="btn btn-primary btn-sm" style="width: 140px">Chat</button> 
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-3">
+          <div class="card doctor-card p-1 pb-3 text-center d-flex flex-col justify-content-center">
+            <div class="image-container d-flex flex-col justify-content-center">
+              <img src="doctor-3.svg" style="width: 100%; height: 100%;" alt="Doctor">
+            </div>
+            <div class="card-info">
+              <h5 class="card-title mt-3">Dr. Kabir Singh</h5>
+              <p class="doctor-info">Neurologist</p>
+            </div>
+            <div>
+              <button class="btn btn-success btn-sm " style="width: 140px;">Call</button>
+              <button class="btn btn-primary btn-sm" style="width: 140px">Chat</button> 
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-3">
+          <div class="card doctor-card p-1 pb-3 text-center d-flex flex-col justify-content-center">
+            <div class="image-container d-flex flex-col justify-content-center">
+              <img src="dr4.svg" style="width: 100%; height: 100%;" alt="Doctor">
+            </div>
+            <div class="card-info">
+              <h5 class="card-title mt-3">Dr.Sharad Shukla</h5>
+              <p class="doctor-info">Dermatologist</p>
+            </div>
+            <div>
+              <button class="btn btn-success btn-sm " style="width: 140px;">Call</button>
+              <button class="btn btn-primary btn-sm" style="width: 140px">Chat</button> 
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-3">
+          <div class="card doctor-card p-1 pb-3 text-center d-flex flex-col justify-content-center">
+            <div class="image-container d-flex flex-col justify-content-center">
+              <img src="doctor-5.svg" style="width: 100%; height: 100%;" alt="Doctor">
+            </div>
+            <div class="card-info">
+              <h5 class="card-title mt-3">Dr. Sarah Rodrigues</h5>
+              <p class="doctor-info">Pediatrist</p>
+            </div>
+            <div>
+              <button class="btn btn-success btn-sm " style="width: 140px;">Call</button>
+              <button class="btn btn-primary btn-sm" style="width: 140px">Chat</button> 
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-3">
+          <div class="card doctor-card p-1 pb-3 text-center d-flex flex-col justify-content-center">
+            <div class="image-container d-flex flex-col justify-content-center">
+              <img src="doctor-6.svg" style="width: 100%; height: 100%;" alt="Doctor">
+            </div>
+            <div class="card-info">
+              <h5 class="card-title mt-3">Dr. Ankur Agarwal</h5>
+              <p class="doctor-info">Gastroenterologist</p>
+            </div>
+            <div>
+              <button class="btn btn-success btn-sm " style="width: 140px;">Call</button>
+              <button class="btn btn-primary btn-sm" style="width: 140px">Chat</button> 
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-3">
+          <div class="card doctor-card p-1 pb-3 text-center d-flex flex-col justify-content-center">
+            <div class="image-container d-flex flex-col justify-content-center">
+              <img src="doctor-7.svg" style="width: 100%; height: 100%;" alt="Doctor">
+            </div>
+            <div class="card-info">
+              <h5 class="card-title mt-3">Dr. Anjali Kashyap</h5>
+              <p class="doctor-info">Gynaecologist</p>
+            </div>
+            <div>
+              <button class="btn btn-success btn-sm " style="width: 140px;">Call</button>
+              <button class="btn btn-primary btn-sm" style="width: 140px">Chat</button> 
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-3">
+          <div class="card doctor-card p-1 pb-3 text-center d-flex flex-col justify-content-center">
+            <div class="image-container d-flex flex-col justify-content-center">
+              <img src="doctor-8.svg" style="width: 100%; height: 100%;" alt="Doctor">
+            </div>
+            <div class="card-info">
+              <h5 class="card-title mt-3">Dr. Sunil Kumar</h5>
+              <p class="doctor-info">Oncologist</p>
+            </div>
+            <div>
+              <button class="btn btn-success btn-sm " style="width: 140px;">Call</button>
+              <button class="btn btn-primary btn-sm" style="width: 140px">Chat</button> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Doctors List End -->
+  <section class="appointment-section">
+    <div class="container">
+      <h2 class="mb-5 text-center">Book an Appointment</h2>
+      <form class="appointment-form">
+        <div class="mb-3">
+          <label for="patientName" class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="patientName" placeholder="Enter your full name" required>
+        </div>
+        <div class="mb-3">
+          <label for="patientEmail" class="form-label">Email</label>
+          <input type="email" class="form-control" id="patientEmail" placeholder="Enter your email" required>
+        </div>
+        <div class="mb-3">
+          <label for="patientPhone" class="form-label">Phone Number</label>
+          <input type="tel" class="form-control" id="patientPhone" placeholder="Enter your phone number" required>
+        </div>
+        <div class="mb-3">
+          <label for="appointmentDate" class="form-label">Appointment Date</label>
+          <input type="date" class="form-control" id="appointmentDate" required>
+        </div>
+        <div class="mb-3">
+          <label for="doctorSelect" class="form-label">Choose Doctor</label>
+          <select class="form-select" id="doctorSelect" required>
+            <option selected disabled>Select a Doctor</option>
+            <option value="Dr.Raj Joshi Cardiologist">Dr. Raj Joshi - Cardiologist</option>
+            <option value="Dr.Kabir Singh - Neurologist">Dr. Kabir Singh - Neurologist</option>
+            <option value="Dr. Sharad Shukla - Dermatologist">Dr. Sharad Shukla - Dermatologist</option>
+            <option value="Dr. Sarah Rodrigues - Pediatrist">Dr. Sarah Rodrigues - Pediatrist</option>
+            <option value="Dr. James Bond - Orthopedist">Dr. Ankur Agarwal - gastrointestinal</option>
+            <option value="Dr. James Bond - Orthopedist">Dr. Anjali Kashyap - Gynaecologist</option>
+            <option value="Dr.Sushil Kumar - Orthopedist">Dr. Sushil Kumar- Oncologist</option>
+            <!-- Add more doctors as needed -->
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="additionalNotes" class="form-label">Additional Notes</label>
+          <textarea class="form-control" id="additionalNotes" rows="3" placeholder="Enter any additional information or notes"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Book Appointment</button>
+      </form>
+    </div>
+  </section>
+  <!-- Book Appointment Section End -->
+  
+        <!-- Lab Tests Section Start -->
+<section class="lab-tests-section">
+  <div class="container">
+    <h2 class="mb-5 text-center">Available Lab Tests</h2>
+    <div class="row g-4">
+      <!-- Blood Test Card -->
+      <div class="col-md-4 col-lg-3">
+        <div class="card lab-test-card p-4 text-center">
+          <img src="blood-test.png" alt="Blood Test">
+          <h5 class="card-title mt-3">Blood Test</h5>
+          <p>Comprehensive blood testing for a range of health indicators.</p>
+          <button class="btn btn-outline-primary btn-sm">Book Now</button>
+        </div>
+      </div>
+
+      <!-- Urine Test Card -->
+      <div class="col-md-4 col-lg-3">
+        <div class="card lab-test-card p-4 text-center">
+          <img src="urine-test.png" alt="Urine Test">
+          <h5 class="card-title mt-3">Urine Test</h5>
+          <p>Basic and advanced urinalysis for diagnosis and monitoring.</p>
+          <button class="btn btn-outline-primary btn-sm">Book Now</button>
+        </div>
+      </div>
+
+      <!-- X-Ray Card -->
+      <div class="col-md-4 col-lg-3">
+        <div class="card lab-test-card p-4 text-center">
+          <img src="x-ray.png" alt="X-Ray">
+          <h5 class="card-title mt-3">X-Ray</h5>
+          <p>Diagnostic X-rays to assess bone and tissue conditions.</p>
+          <button class="btn btn-outline-primary btn-sm">Book Now</button>
+        </div>
+      </div>
+
+      <!-- MRI Scan Card -->
+      <div class="col-md-4 col-lg-3">
+        <div class="card lab-test-card p-4 text-center">
+          <img src="mri.svg" alt="MRI Scan">
+          <h5 class="card-title mt-3">MRI Scan</h5>
+          <p>Advanced imaging for detailed examination of organs and tissues.</p>
+          <button class="btn btn-outline-primary btn-sm">Book Now</button>
+        </div>
+      </div>
+
+      <!-- -->
+      <div class="col-md-4 col-lg-3">
+        <div class="card lab-test-card p-4 text-center">
+          <img src="radiology.svg" alt="MRI Scan">
+          <h5 class="card-title mt-3">Radiology</h5>
+          <p>Advanced imaging for detailed examination of neuro organ.</p>
+          <button class="btn btn-outline-primary btn-sm">Book Now</button>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card lab-test-card p-4 text-center">
+          <img src="covid test.svg" alt="MRI Scan">
+          <h5 class="card-title mt-3">Covid-19 test</h5>
+          <p>Get tested and treated for Covid-19 virus.</p>
+          <button class="btn btn-outline-primary btn-sm">Book Now</button>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card lab-test-card p-4 text-center">
+          <img src="hiv-test.svg" alt="MRI Scan">
+          <h5 class="card-title mt-3">HIV Tests</h5>
+          <p>Get your results for AIDS at free of cost .</p>
+          <button class="btn btn-outline-primary btn-sm">Book Now</button>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card lab-test-card p-4 text-center">
+          <img src="hiv-test.svg" alt="MRI Scan">
+          <h5 class="card-title mt-3">HIV Tests</h5>
+          <p>Get your results for AIDS at free of cost .</p>
+          <button class="btn btn-outline-primary btn-sm">Book Now</button>
+        </div>
+      </div>
+
+      
+    </div>
+  </div>
+</section>
+<!-- Lab Tests Section End -->
+<section class="blog-section">
+  <div class="container">
+    <h2 class="mb-5 text-center">Blog & Articles by Our Doctors</h2>
+    <div class="row g-4">
+      <!-- Article 1 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card blog-card">
+          <img src="article3.svg" alt="Article Image">
+          <div class="blog-card-body">
+            <h5 class="blog-card-title">Understanding Heart Health</h5>
+            <p class="blog-author-date">By Dr. John Doe | Jan 15, 2023</p>
+            <p class="card-text">Explore the latest insights on maintaining a healthy heart and preventing cardiovascular diseases.</p>
+            <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Article 2 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card blog-card">
+          <img src="article.svg" alt="Article Image">
+          <div class="blog-card-body">
+            <h5 class="blog-card-title">Dealing with Anxiety</h5>
+            <p class="blog-author-date">By Dr. Sarah Liu | Feb 10, 2023</p>
+            <p class="card-text">A comprehensive guide to understanding and managing anxiety with professional insights.</p>
+            <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Article 3 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card blog-card">
+          <img src="article1.svg" alt="Article Image">
+          <div class="blog-card-body">
+            <h5 class="blog-card-title">Nutrition Tips for a Healthy Life</h5>
+            <p class="blog-author-date">By Dr. Emily Stone | Mar 5, 2023</p>
+            <p class="card-text">Discover essential nutrition tips to lead a healthier life and improve your well-being.</p>
+            <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Additional articles can be added here in the same format -->
+    </div>
+  </div>
+</section>
+<!-- Blog & Articles Section End -->
+
+<section class="testimonials-section">
+  <div class="container">
+    <h2 class="mb-5 text-center">Testimonials</h2>
+    <div class="row g-6">
+      <!-- Testimonial 1 -->
+      <div class="col-12 col-md-6 col-lg-2">
+        <div class="card testimonial-card text-center p-4">
+          <div class="image-container d-flex flex-col justify-content-center">
+          <img src="review1.svg" alt="Patient"></div>
+          <h5 class="mt-3">Rakesh Kumar</h5>
+          <p class="rating">
+            ★★★★☆
+          </p>
+          <p class="card-text">"Dr. Himanshu was very attentive and professional. I felt completely comfortable and cared for."</p>
+        </div>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="col-12 col-md-6 col-lg-2">
+        <div class="card testimonial-card text-center p-4">
+          <div class="image-container d-flex flex-col justify-content-center">
+          <img src="review2.svg" alt="Patient"></div>
+          <h5 class="mt-3">Rajendra Naidu</h5>
+          <p class="rating">
+            ★★★★★
+          </p>
+          <p class="card-text">"I had a great experience with Dr. Singh. The staff were friendly and the service was excellent."</p>
+        </div>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="col-12 col-md-6 col-lg-2">
+        <div class="card testimonial-card text-center p-4">
+          <div class="image-container d-flex flex-col justify-content-center">
+          <img src="review3.svg" alt="Patient"></div>
+          <h5 class="mt-3">Manohar das</h5>
+          <p class="rating">
+            ★★★★☆
+          </p>
+          <p class="card-text">"Very impressed with the thorough care I received. Dr. Sunil was incredibly knowledgeable."</p>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-2">
+        <div class="card testimonial-card text-center p-4">
+          <div class="image-container d-flex flex-col justify-content-center">
+          <img src="review7.svg" alt="Patient"></div>
+          <h5 class="mt-3">Sukhi devi</h5>
+          <p class="rating">
+            ★★★★★
+          </p>
+          <p class="card-text">"डॉ. अंजलि के साथ मेरा अनुभव बहुत अच्छा रहा। कर्मचारी मिलनसार थे और सेवा उत्कृष्ट थी।"</p>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-2">
+        <div class="card testimonial-card text-center p-4">
+          <div class="image-container d-flex flex-col justify-content-center">
+          <img src="review8.svg" alt="Patient"></div>
+          <h5 class="mt-3">Anushka sharma</h5>
+          <p class="rating">
+            ★★★★★
+          </p>
+          <p class="card-text">"I had a great experience with Dr. Rodrigues. The staff were friendly and the service was excellent."</p>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-2">
+        <div class="card testimonial-card text-center p-4">
+          <div class="image-container d-flex flex-col justify-content-center">
+          <img src="review1.svg" alt="Patient"></div>
+          <h5 class="mt-3">Jay yadav</h5>
+          <p class="rating">
+            ★★★★★
+          </p>
+          <p class="card-text">"I had a great experience with Dr. Singh. The staff were friendly and the service was excellent."</p>
+        </div>
+      </div>
+
+      <!-- Additional testimonials can be added here in the same format -->
+    </div>
+  </div>
+</section>
+<!-- Patient Testimonials End -->
+ <!-- Footer Start -->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <!-- Logo and Description -->
+      <div class="col-sm-4 footer-logo ">
+        <a>
+          <img src="Frame 237.png">
+         <b>Virtual-Clinic</b> 
+        </a>
+        <p class="mt-3">Dedicated to delivering high-quality healthcare services with compassion and innovation.</p>
+      </div>
+
+      <!-- Quick Links -->
+      <!-- Quick Links -->
+      <div class="col-md-4">
+        <h5>Quick Links</h5>
+        <div class="row">
+          <!-- First Row of Links -->
+          <div class="col-6">
+            <ul class="list-unstyled">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Departments</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <!-- Second Row of Links -->
+          <div class="col-6">
+            <ul class="list-unstyled">
+              <li><a href="#">Appointments</a></li>
+              <li><a href="#">Lab Tests</a></li>
+              <li><a href="#">Patient Portal</a></li>
+              <li><a href="#">Offline Visit</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Information -->
+      <div class="col-md-4">
+        <h5>Contact Us</h5>
+        <p><strong>Address:</strong> 123 Health St, Wellness City, HC 12345</p>
+        <p><strong>Email:</strong> virtual-clinic@hospital.com</p>
+        <p><strong>Phone:</strong> +91 2343452332 , 140234245</p>
+
+        <!-- Social Media Icons -->
+        <div class="social-icons mt-3">
+          <a href="#" aria-label="Facebook"><img src="https://img.icons8.com/?size=100&id=118467&format=png&color=000000" alt=""></a>
+          <a href="#" aria-label="Twitter"><img src="https://img.icons8.com/?size=100&id=8824&format=png&color=000000"></a>
+          <a href="#" aria-label="Instagram"><img src="https://img.icons8.com/?size=100&id=32309&format=png&color=000000"</i></a>
+          <a href="#" aria-label="LinkedIn"><img src="https://img.icons8.com/?size=100&id=16733&format=png&color=000000"></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom mt-4">
+      <p>&copy; 2024 Virtual-clinic. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+<!-- Footer End -->
+
+
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
